@@ -5,7 +5,7 @@
 #lbl {
     font-family: arial;
     font-size: xx-large;
-    color: #240202;
+    color: #ff00000;
     padding: 5px;
     border: 1px solid #ececec;
     text-align: center;
@@ -18,7 +18,7 @@
     font-size:large;
 }
 body{
-    background-color: aliceblue;
+    background-color: white;
 }
     </style>
 </head>
@@ -45,11 +45,11 @@ body{
     var greet;
 
     if (hrs < 12)
-        greet = 'Good Morning Ivy  ';
+        greet = 'Good Morning debateR  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon Ivy ';
+        greet = 'Good Afternoon debateR ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening Ivy  ';
+        greet = 'Good Evening debateR  ';
 
     document.getElementById('lbl').innerHTML =
         greet+=`<div id="date"> It's ${date}</div>`;
